@@ -1,0 +1,31 @@
+{
+  "include": ["src/**/*", "package.json"],
+  "compilerOptions": {
+    "strict": true /* Enable all strict type-checking options. */,
+    "target": "ES2020" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "nodenext",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["ES2021", "ES2018"],
+    "sourceMap": true,
+    "rootDir": "./" /* Specify the root folder within your source files. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+  }
+}
